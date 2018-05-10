@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ujjawal_pc.symptomchecker">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/a"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".s1" />
+        <activity android:name=".bmi" />
+        <activity
+            android:name=".detect1"
+            android:label="@string/app_name" />
+        <activity android:name=".detect2" />
+        <activity android:name=".drug" />
+        <activity android:name=".doctor" />
+        <activity android:name=".disease" />
+        <activity android:name=".skin" />
+        <activity android:name=".head" />
+        <activity android:name=".male" />
+        <activity android:name=".mental" />
+        <activity android:name=".physical" />
+        <activity android:name=".eyes" />
+        <activity android:name=".female" />
+        <activity android:name=".nose" />
+        <activity android:name=".abdomen" />
+        <activity android:name=".buttock" />
+        <activity android:name=".chest" />
+        <activity android:name=".neck" />
+        <activity android:name=".legs" />
+        <activity android:name=".back" />
+        <activity android:name=".arms" />
+        <activity android:name=".skinnext"></activity>
+    </application>
+
+</manifest>
